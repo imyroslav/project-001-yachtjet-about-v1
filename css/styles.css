@@ -99,22 +99,11 @@ h1, h2, h3, h4, h5, h6, p {
     align-items: center;
     flex-shrink: 0;
     border-radius: 24px;
-    background: url(../images-section-about/m-poster.jpg), lightgray -181.984px -4.244px / 182.464% 109.429% no-repeat;
-    background-position: center;
-
+    background-color: lightgrey -181.984px -4.244px / 182.464% 109.429% no-repeat;
+    background-size: 335px;
 }
 
-@media (min-resolution: 192dpi) {
-    .thumb {
-        width: 335px;
-        height: 395px;
-        flex-shrink: 0; 
-        border-radius: 24px;
-        background: url(../images-section-about/m-poster@2x.jpg), lightgray -181.984px -4.244px / 182.464% 109.429% no-repeat;
-        background-position: center;
-        background-size: 335px;
-    }
-}
+
 
 /* ===================== TABLET ======================== */
 
@@ -175,15 +164,8 @@ h1, h2, h3, h4, h5, h6, p {
         width: 704px;
         height: 470px;
         border-radius: 24px;
-        background: url(../images-section-about/t-poster.jpg), lightgray -56.901px -9.603px / 112.912% 119.598% no-repeat;
-    }
-
-    @media (min-resolution: 192dpi) {
-        .thumb {
-            border-radius: 24px;
-            background: url(../images-section-about/t-poster@2x.jpg), lightgray -56.901px -9.603px / 112.912% 119.598% no-repeat; 
-            background-size: 704px;
-        }
+        background-color: lightgray -56.901px -9.603px / 112.912% 119.598% no-repeat;
+        background-size: 704px;
     }
     
 }
@@ -251,20 +233,10 @@ h1, h2, h3, h4, h5, h6, p {
         width: 1180px;
         height: 470px;
         border-radius: 24px;
-        background: url(../images-section-about/d-poster.jpg), lightgray 50% / cover no-repeat;
+        background-color: lightgrey 50% / cover no-repeat;
         background-size: 1180px;
     }
 
-    @media (min-resolution: 192dpi) {
-        .thumb {
-            width: 1180px;
-            height: 470px;
-            border-radius: 24px;
-            background: url(../images-section-about/d-poster@2x.jpg), lightgray 50% / cover no-repeat;
-            background-size: 1180px;
-            
-        }
-    }
 
 
 
@@ -334,15 +306,8 @@ h1, h2, h3, h4, h5, h6, p {
         height: 470px;
         flex-shrink: 0;
         border-radius: 24px;
-        background: url(../images-section-about/dw-poster.jpg), lightgray 50% / cover no-repeat;
         background-size: 1340px;
+        background-color: lightgrey 50%;
     }
 
-    @media (min-resolution: 192dpi) {
-        .thumb {
-            border-radius: 24px;
-            background: url(../images-section-about/dw-poster@2x.jpg), lightgray 50% / cover no-repeat;
-            background-size: 1340px;
-        }
-    }
 }
